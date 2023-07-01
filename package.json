@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "babel ./src/script -d ./src/lib -w",
-		"serve": "tailwindcss -i ./src/tailwind/tailwind.css -o ./src/styles/style.css -w",
+		"build": "babel ./src/script -d ./src/lib",
+		"serve": "tailwindcss -i ./src/tailwind/tailwind.css -o ./src/styles/style.css",
 		"start": "npm-run-all --parallel build serve"
 	},
 	"keywords": [],
