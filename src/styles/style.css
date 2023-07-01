@@ -574,6 +574,10 @@ html,
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -623,6 +627,18 @@ html,
   margin-top: 1.25rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -665,6 +681,18 @@ html,
 
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-5\/6 {
+  height: 83.333333%;
+}
+
+.h-72 {
+  height: 18rem;
 }
 
 .w-1\/2 {
@@ -1090,6 +1118,10 @@ html,
 @media (min-width: 768px) {
   .md\:static {
     position: static;
+  }
+
+  .md\:fixed {
+    position: fixed;
   }
 
   .md\:h-\[480px\] {

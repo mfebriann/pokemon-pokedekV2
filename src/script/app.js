@@ -109,7 +109,7 @@ function Body() {
 									<path d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z" fill="rgba(255,255,255,1)"></path>
 								</svg>
 								<div className="bg-white rounded-md w-full overflow-auto absolute left-0 bottom-0 h-[90vh] md:static md:h-[480px] md:w-[600px]">
-									<figure className="h-80 flex justify-center flex-col items-center gap-8 rounded-t-md" style={{ background: `linear-gradient(to top, rgb(243, 244, 246), ${colorsType[`${pokemonData['types'][0].type.name}`]})` }}>
+									<figure className="h-72 flex justify-center flex-col items-center gap-8 rounded-t-md" style={{ background: `linear-gradient(to top, rgb(243, 244, 246), ${colorsType[`${pokemonData['types'][0].type.name}`]})` }}>
 										<img src={pokemonData.sprites.versions['generation-v']['black-white'].animated['front_default']} alt={pokemonData.name} className="h-48 " />
 										<figcaption className="font-semibold italic text-slate-800 text-2xl sm:text-3xl capitalize">{pokemonData.name}</figcaption>
 									</figure>
@@ -189,7 +189,7 @@ function Body() {
 
 function Footer() {
 	return (
-		<footer className="bg-blue-600 px-4 py-3 absolute bottom-0 left-0 right-0 text-white">
+		<footer className="bg-blue-600 px-4 py-3 fixed bottom-0 left-0 right-0 text-white">
 			<div className="container mx-auto flex items-center justify-between flex-wrap gap-3 text-sm">
 				<span className="font-medium">2023. Pokedek?</span>
 				<div className="flex items-center flex-wrap gap-4">

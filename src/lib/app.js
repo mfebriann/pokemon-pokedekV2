@@ -122,7 +122,7 @@ function Body() {
   })), /*#__PURE__*/React.createElement("div", {
     className: "bg-white rounded-md w-full overflow-auto absolute left-0 bottom-0 h-[90vh] md:static md:h-[480px] md:w-[600px]"
   }, /*#__PURE__*/React.createElement("figure", {
-    className: "h-80 flex justify-center flex-col items-center gap-8 rounded-t-md",
+    className: "h-72 flex justify-center flex-col items-center gap-8 rounded-t-md",
     style: {
       background: `linear-gradient(to top, rgb(243, 244, 246), ${colorsType[`${pokemonData['types'][0].type.name}`]})`
     }
@@ -203,7 +203,7 @@ function Body() {
 }
 function Footer() {
   return /*#__PURE__*/React.createElement("footer", {
-    className: "bg-blue-600 px-4 py-3 absolute bottom-0 left-0 right-0 text-white"
+    className: "bg-blue-600 px-4 py-3 fixed bottom-0 left-0 right-0 text-white"
   }, /*#__PURE__*/React.createElement("div", {
     className: "container mx-auto flex items-center justify-between flex-wrap gap-3 text-sm"
   }, /*#__PURE__*/React.createElement("span", {
