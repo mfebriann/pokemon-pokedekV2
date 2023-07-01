@@ -14,9 +14,10 @@ This project is to search for the pokemon according to what you typed, then deta
 
 - Steps
 
-  1. Try `git clone https://github.com/mfebriann/pokemon-pokedekV2.git`
-  2. Open folder and try `npm install` on terminal
-  3. `npm run start`
-  4. Start live server or live preview on your browser
+  1. Open terminal and typing `git clone https://github.com/mfebriann/pokemon-pokedekV2.git`
+  2. `cd pokemon-pokedekV2`
+  3. `npm install`
+  4. `npm run start`
+  5. Start live server or live preview on index.html file
 
   **_Note: This project just for I'm learn about ReactJS_**
