@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html,
+	input,
+	button {
+		font-family: 'Roboto Slab', serif;
+	}
+}
+
+@layer utilities {
+	::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(100, 100, 100, 0.3);
+		background-color: #f5f5f5;
+	}
+
+	::-webkit-scrollbar {
+		width: 6px;
+		background-color: #f5f5f5;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: rgb(124, 124, 124);
+	}
+}
