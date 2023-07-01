@@ -607,6 +607,10 @@ html,
   margin-bottom: 0.75rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -1090,6 +1094,10 @@ html,
 @media (min-width: 768px) {
   .md\:static {
     position: static;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .md\:h-\[480px\] {

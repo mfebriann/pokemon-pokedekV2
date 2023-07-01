@@ -75,12 +75,14 @@ function Body() {
 
 	function dataDetailPokemon() {
 		setDetailPokemon(true);
+		document.querySelector('body').style.overflow = 'hidden';
 	}
 
 	function closeDetailPokemon(e) {
 		if (e.target.classList.contains('fixed') || e.target.tagName === 'svg' || e.target.tagName === 'path') {
 			setDetailPokemon(false);
 			setCollapseMoves(false);
+			document.querySelector('body').removeAttribute('style');
 		}
 	}
 
